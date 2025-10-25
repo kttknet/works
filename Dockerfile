@@ -22,7 +22,7 @@ COPY start.sh .
 
 RUN chmod +x /app/start.sh
 
-# 暴露27893和8000端口
-EXPOSE 27893 8000
+# 暴露10374和8000端口
+EXPOSE 10374 8000
 
 CMD ["/app/start.sh"]
