@@ -2,7 +2,7 @@ name: vless-service
 services:
 - name: vless
   ports:
-  - port: 27893
+  - port: 10374
     protocol: TCP
     tcp:
       proxy:
