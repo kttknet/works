@@ -16,7 +16,7 @@ async def health_check(request):
 def print_node_info():
     tcp_proxy_domain = "01.proxy.koyeb.app"
     uuid = "258751a7-eb14-47dc-8d18-511c3472220f"
-    tcp_port = "10374"
+    tcp_port = "34374"
     
     info = f"""
 ============================================================
