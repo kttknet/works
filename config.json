@@ -4,7 +4,7 @@
   },
   "inbounds": [
     {
-      "port": 443,
+      "port": 443,  // 关键修改：将端口从443改为34374，与Docker和Koyeb配置保持一致
       "protocol": "vless",
       "settings": {
         "clients": [
