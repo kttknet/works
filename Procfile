@@ -1,0 +1,2 @@
+web: /app/start.sh
+
