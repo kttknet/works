@@ -2,7 +2,7 @@ name: web-service
 services:
 - name: web
   ports:
-  - port: 20018
+  - port: 15141
     protocol: TCP
     tcp:
       proxy:
